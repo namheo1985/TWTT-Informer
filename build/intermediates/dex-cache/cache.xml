@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/namheo/AndroidStudioProjects/TWTTInformer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="/Users/namheo/AndroidStudioProjects/TWTTInformer/app/build/intermediates/pre-dexed/debug/classes-046c85a9b0be38f904da4f238393b58a81f69219.jar" />
+    </item>
+    <item
+        jar="/Users/namheo/AndroidStudioProjects/TWTTInformer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/namheo/AndroidStudioProjects/TWTTInformer/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-3dd0d99523b7f17cccfc6084eb8c16e6392d22a3.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Tools/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/namheo/AndroidStudioProjects/TWTTInformer/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-405888fd8e481dd00c9fe8cf0b56c0c108f1fa43.jar" />
+    </item>
+    <item
+        jar="/Users/namheo/AndroidStudioProjects/TWTTInformer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/namheo/AndroidStudioProjects/TWTTInformer/app/build/intermediates/pre-dexed/debug/classes-5e6e029fdf64a1eb5859809f10a508127a7ebc94.jar" />
+    </item>
+    <item
+        jar="/Users/namheo/AndroidStudioProjects/TWTTInformer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="/Users/namheo/AndroidStudioProjects/TWTTInformer/app/build/intermediates/pre-dexed/debug/classes-e8fea8b21bdf588d61f6a4a0370ce4e3196869f8.jar" />
+    </item>
+
+</items>
