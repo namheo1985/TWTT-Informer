@@ -40,15 +40,18 @@ public class MainActivity extends BaseActionBarActivity
     private void initiateApp() {
 
     }
-
+    @Override
+    public void onStart() {
+        super.onStart();
+        if (mNavigationDrawerFragment != null) {
+            mNavigationDrawerFragment.selectItem(0);
+        }
+    }
     @Override
     public void onResume() {
         super.onResume();
         if (mIsFirstTimeLoaded) {
             mIsFirstTimeLoaded = false;
-            if (mNavigationDrawerFragment != null) {
-                mNavigationDrawerFragment.selectItem(0);
-            }
         }
     }
     @Override

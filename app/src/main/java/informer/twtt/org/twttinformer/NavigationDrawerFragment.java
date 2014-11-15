@@ -22,6 +22,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import informer.twtt.org.twttinformer.supporter.SystemSuppoter;
+
 /**
  * Fragment used for managing interactions for and presentation of a navigation drawer.
  * See the <a href="https://developer.android.com/design/patterns/navigation-drawer.html#Interaction">
@@ -57,6 +59,7 @@ public class NavigationDrawerFragment extends Fragment {
     private int mCurrentSelectedPosition = 0;
     private boolean mFromSavedInstanceState;
     private boolean mUserLearnedDrawer;
+    private boolean mIsTablet = false;
     private String[] mTitles;
 
     public NavigationDrawerFragment() {
@@ -189,6 +192,10 @@ public class NavigationDrawerFragment extends Fragment {
             }
         });
         mDrawerLayout.setDrawerListener(mDrawerToggle);
+        mIsTablet = SystemSuppoter.isTablet(getActivity());
+        if(mIsTablet) {
+            openDrawer();
+        }
     }
 
     public void selectItem(int position) {
@@ -196,7 +203,7 @@ public class NavigationDrawerFragment extends Fragment {
         if (mDrawerListView != null) {
             mDrawerListView.setItemChecked(position, true);
         }
-        if (mDrawerLayout != null) {
+        if (mDrawerLayout != null && !mIsTablet) {
             mDrawerLayout.closeDrawer(mFragmentContainerView);
         }
         if (mCallbacks != null) {
@@ -281,5 +288,10 @@ public class NavigationDrawerFragment extends Fragment {
          * Called when an item in the navigation drawer is selected.
          */
         void onNavigationDrawerItemSelected(int position);
+    }
+    public void openDrawer() {
+        if(mDrawerLayout != null) {
+            mDrawerLayout.openDrawer(mFragmentContainerView);
+        }
     }
 }
