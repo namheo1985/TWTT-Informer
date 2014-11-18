@@ -1,7 +1,8 @@
 package informer.twtt.org.twttinformer.base;
 
 import android.support.v4.app.Fragment;
-import android.util.Log;
+
+import informer.twtt.org.twttinformer.supporter.Reporter;
 
 /**
  * Created by namheo on 11/13/14.
@@ -20,7 +21,7 @@ public class BaseFragment extends Fragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        Log.v("onDestroy", mTitle);
+        Reporter.log("fragment", getTitle());
     }
 
     public void notify(String event, Object target, Object data) {

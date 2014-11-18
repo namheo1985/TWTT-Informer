@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -13,6 +12,7 @@ import informer.twtt.org.twttinformer.base.BaseFragment;
 import informer.twtt.org.twttinformer.base.BaseListFragment;
 import informer.twtt.org.twttinformer.fragment.PlaceholderFragment;
 import informer.twtt.org.twttinformer.fragment.TimeTableFragment;
+import informer.twtt.org.twttinformer.supporter.Reporter;
 
 
 public class MainActivity extends BaseActionBarActivity
@@ -35,11 +35,10 @@ public class MainActivity extends BaseActionBarActivity
         mNavigationDrawerFragment.setUp(
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
+        Reporter.initiateTags("fragment");
+        Reporter.setEnable(true);
     }
 
-    private void initiateApp() {
-
-    }
     @Override
     public void onStart() {
         super.onStart();
@@ -57,7 +56,6 @@ public class MainActivity extends BaseActionBarActivity
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
-        Log.v("onNavigationDrawerItemSelected", "" + position);
         if (mNavigationDrawerFragment != null) {
             BaseFragment frag = null;
             switch (position) {
