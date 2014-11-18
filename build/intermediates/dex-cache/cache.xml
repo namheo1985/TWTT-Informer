@@ -2,34 +2,34 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/neotran/AndroidStudioProjects/TWTT-Informer/app/build/intermediates/pre-dexed/debug/classes-dcb3f480b8fb2f4c6353e16bbb159ecffe5fc24d.jar"
-        jar="/Users/neotran/AndroidStudioProjects/TWTT-Informer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
-    <item
-        dex="/Users/neotran/AndroidStudioProjects/TWTT-Informer/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-c4d5e6456bd8502eba01d7ed30246de51ab3d811.jar"
-        jar="/Users/neotran/AndroidStudioProjects/TWTT-Informer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
-    <item
-        dex="/Users/neotran/AndroidStudioProjects/TWTT-Informer/app/build/intermediates/pre-dexed/debug/classes-30e60d0dbf218255abaceeb90dc15ead27c74a93.jar"
-        jar="/Users/neotran/AndroidStudioProjects/TWTT-Informer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
+        dex="/Users/namheo/Github/TWTT-Informer/app/build/intermediates/pre-dexed/debug/classes-c152564f16b13fde2378b15bf9c33a8b9ff3035c.jar"
+        jar="/Users/namheo/Github/TWTT-Informer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da"/>
     <item
-        dex="/Users/neotran/AndroidStudioProjects/TWTT-Informer/app/build/intermediates/pre-dexed/debug/classes-30048f67c284392273de7dec182470c088d0b6f5.jar"
-        jar="/Users/neotran/AndroidStudioProjects/TWTT-Informer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
-    <item
-        dex="/Users/neotran/AndroidStudioProjects/TWTT-Informer/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-ef4a8c152c048194a33a45b9187e68577ae076a2.jar"
-        jar="/Users/neotran/Documents/AndroidSDK/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        dex="/Users/namheo/Github/TWTT-Informer/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-405888fd8e481dd00c9fe8cf0b56c0c108f1fa43.jar"
+        jar="/Applications/Android Tools/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+    <item
+        dex="/Users/namheo/Github/TWTT-Informer/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-6ea4b7d3e6891619f1f02d94719061e3d8fec7fe.jar"
+        jar="/Users/namheo/Github/TWTT-Informer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="/Users/namheo/Github/TWTT-Informer/app/build/intermediates/pre-dexed/debug/classes-46ccfd4303358b1caffc294c31466844a5322ec4.jar"
+        jar="/Users/namheo/Github/TWTT-Informer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+    <item
+        dex="/Users/namheo/Github/TWTT-Informer/app/build/intermediates/pre-dexed/debug/classes-4336f502f2b402f7a5d30125bf8d941c0f7f2565.jar"
+        jar="/Users/namheo/Github/TWTT-Informer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
 
 </pre-dex-items>
