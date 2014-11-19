@@ -23,6 +23,12 @@ public class Reporter {
             tags.add(tagString[i]);
         }
     }
+    public static void info(String tag, String message) {
+        if (IS_ENABLED && contains(tag)) {
+            Log.i(INNER_APP + " : " + tag,  message);
+            Log.i(INNER_APP + " : " + tag,  "From " + getClassAndMethodName(4));
+        }
+    }
 
     public static void log(String tag, String message) {
         if (IS_ENABLED && contains(tag)) {

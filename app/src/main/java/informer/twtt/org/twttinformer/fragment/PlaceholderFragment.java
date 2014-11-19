@@ -10,12 +10,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.Observable;
+
 import informer.twtt.org.twttinformer.R;
 import informer.twtt.org.twttinformer.base.BaseFragment;
 
-/**
- * A placeholder fragment containing a simple view.
- */
 public class PlaceholderFragment extends BaseFragment {
     public PlaceholderFragment() {
     }
@@ -28,8 +27,12 @@ public class PlaceholderFragment extends BaseFragment {
     }
 
     @Override
+    public void update(Observable observable, Object data) {
+    }
+
+    @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        notify("onAttach", this, mTitle);
+        if (mTitle != null) mTitle.notifyObservers();
     }
 }

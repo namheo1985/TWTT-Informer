@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TWTT Informer</string>
-    <string name="welcome">Welcome to Talking With The Tourist</string>
+    <string name="welcome">Talking With The Tourist</string>
 
     <string name="title_section_timetable">Our Timetable</string>
     <string name="title_section_timetable_offline">Offline Meeting</string>

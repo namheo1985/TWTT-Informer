@@ -4,3 +4,15 @@
 *.bin
 
 local.properties
+
+*.lock
+
+*.bin
+
+.idea/workspace.xml
+
+app/app.iml
+
+app/src/main/java/informer/twtt/org/twttinformer/base/BaseActionBarActivity.java
+
+app/src/main/java/informer/twtt/org/twttinformer/base/BaseActionBarActivity.java
